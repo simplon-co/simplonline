@@ -82,7 +82,7 @@ gem install bundler
 bundle install 
 ```
 
-Si `error pg`   ------>    `sudo apt-get intall lipq-dev`         
+Si `error pg`   ------>    `sudo apt-get install libpq-dev`         
 
 Puis configurer la base de données :
 
