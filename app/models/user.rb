@@ -1,5 +1,13 @@
 require 'digest/sha1'
 
+def forem_name
+  name = User.name
+end
+
+def forem_email
+  email_address = User.email_address
+end
+
 class User < ActiveRecord::Base
   has_secure_password
 
