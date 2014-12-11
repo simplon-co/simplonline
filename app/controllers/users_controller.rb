@@ -1,6 +1,16 @@
 class UsersController < ApplicationController
   skip_filter :remote_cant_access
 
+  #j'ai rajouté ça
+  def forem_user
+    forem_user = current_user
+  end
+
+  def index
+    @users = User.all
+  end
+
+
   def edit
     @user = current_user
   end

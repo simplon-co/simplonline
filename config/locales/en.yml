@@ -12,6 +12,23 @@ en:
       irc: 'Chatroom'
       email: 'Email'
       password: 'Password'
+    forem:
+      session: "Sessions"
+      definition: "Lexique"
+      about: "About"
+      home: "Tableau de bord"
+      messages: "Messages"
+      title_window: "Simplonline"
+      title: "Simplonline"
+      update_login: "Mon compte"
+      logout: "Se déconnecter"
+      footer-text: "Un site réalisé par les élèves de [simplon.co](http://simplon.co) avec un design de [Pierre Kowarsky](http://pierre-kowarsky.fr) le tout hébergé chez [appsdeck.eu](http://appsdeck.eu)"
+      contact: "Contact"
+      legal: "Mentions légales"
+      login: "Se connecter"
+      email: "Email"
+      password: "Mot de passe"
+      reset_password: "Mot de passe oublié ?"
   users:
     show:
       title: 'Welcome %{name}'

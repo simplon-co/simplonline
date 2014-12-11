@@ -12,6 +12,13 @@
     = f.email_field :email, class: 'field'
 
   %p
+    = f.label :forem_admin, ('Forum administrator')
+    %br
+    = f.check_box :forem_admin, class: 'field'
+
+
+
+  %p
     = f.submit t('.submit'), class: 'button small success radius'
     = link_to t('.cancel'), root_url
 
