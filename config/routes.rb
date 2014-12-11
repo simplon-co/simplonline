@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+ #j'ai ajouté ces ressoures --> pas d'erreurs
+  resources :users
+  resources :categories
+  #resources :forums
+  resources :moderation
+  resources :posts
+  resources :topics
 
   # This line mounts Forem's routes at /forums by default.
   # This means, any requests to the /forums URL of your application will go to Forem::ForumsController#index.
@@ -6,8 +13,7 @@ Rails.application.routes.draw do
   #
   # We ask that you don't use the :as option here, as Forem relies on it being the default of "forem"
   mount Forem::Engine, :at => '/forums'
-
-
+  
   get '/', to: 'static#dashboard'
 
   get '/welcome', to: 'static#welcome'

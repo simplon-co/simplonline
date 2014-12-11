@@ -25,6 +25,24 @@ fr:
       email: "Email"
       password: "Mot de passe"
       reset_password: "Mot de passe oublié ?"
+    forem:
+      session: "Sessions"
+      definition: "Lexique"
+      about: "À propos"
+      home: "Tableau de bord"
+      messages: "Messages"
+      title_window: "Simplonline"
+      title: "Simplonline"
+      update_login: "Mon compte"
+      logout: "Se déconnecter"
+      footer-text: "Un site réalisé par les élèves de [simplon.co](http://simplon.co) avec un design de [Pierre Kowarsky](http://pierre-kowarsky.fr) le tout hébergé chez [appsdeck.eu](http://appsdeck.eu)"
+      contact: "Contact"
+      legal: "Mentions légales"
+      login: "Se connecter"
+      email: "Email"
+      password: "Mot de passe"
+      reset_password: "Mot de passe oublié ?"
+
   reset_passwords:
     new:
       title: "Demande de renouvellement de mot de passe"

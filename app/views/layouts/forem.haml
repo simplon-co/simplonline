@@ -12,17 +12,9 @@
       - if current_user
         = link_to t('.home'), root_path
         |
-        = link_to t('.session'), lessons_path
-        |
         = link_to t('.messages'), messages_path
         |
-        = link_to t('.definition'), definitions_path
-        |
-        = link_to t('.about'), about_path
-        |
         = link_to 'Forum', forem.forums_path
-        |
-        = link_to 'Users', users_path
         |
         = link_to "#{current_user.name.capitalize}", user_path(current_user), title: t('.update_login')
         |
@@ -66,4 +58,3 @@
         (window,document,'script','//www.google-analytics.com/analytics.js','ga');
         ga('create', 'UA-39912989-4', 'auto');
         ga('send', 'pageview');
-

@@ -5,7 +5,7 @@ def forem_name
 end
 
 def forem_email
-  email_address = User.email_address
+  email_address #où ensuite va-t-il aller chercher l'email dans la bdd ? où se trouve la méthode ? dans forem ?
 end
 
 class User < ActiveRecord::Base

@@ -3,6 +3,7 @@ User.create({name: 'BPresent', email: 'bpresent@simplon.co', password: 'present'
 User.create({name: 'CPresent', email: 'cpresent@simplon.co', password: 'present', password_confirmation: 'present', student_type: User::LOCAL})
 User.create({name: 'DPresent', email: 'dpresent@simplon.co', password: 'present', password_confirmation: 'present', student_type: User::LOCAL})
 User.create({name: 'Distant', email: 'distant@simplon.co', password: 'distant', password_confirmation: 'distant', student_type: User::REMOTE})
+#User.create({name: 'Testadmin', email: 'adminforum@simplon.co', password: 'admin', password_confirmation: 'admin', student_type: User::LOCAL, forem_admin: true})
 Exercice.create({consigne: "Ceci est l'exercice 1", echantillon: 'some string JSON', reponse: 'some string JSON', format_reponse: 1, titre: 'baz', format_echantillon: '1'})
 Exercice.create({consigne: "Ceci est l'exercice 2", echantillon: 'foo', reponse: 'bar', format_reponse: 2, titre: 'baz', format_echantillon: '2'})
 Exercice.create({consigne: "Ceci est l'exercice 3", echantillon: 'foo', reponse: 'bar', format_reponse: 3, titre: 'baz', format_echantillon: '3'})

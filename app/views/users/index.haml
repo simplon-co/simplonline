@@ -1,0 +1,10 @@
+%h2 = Liste des users
+
+%ul
+  - @users.all.each do |user|
+    %li
+      = user.name
+      = user.forem_admin
+      = user.forem_state
+      = user.forem_auto_subscribe
+      = user.student_type 
