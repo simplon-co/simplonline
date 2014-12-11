@@ -29,7 +29,7 @@ class User < ActiveRecord::Base
 
   def self.login(email, password)
     user = User.find_by(email: email.downcase)
-    if user && user.reset_password_key.nil?
+    if user && user.reset_password_key.blank?
       user.authenticate(password)
     end
   end
@@ -60,13 +60,14 @@ class User < ActiveRecord::Base
       user.generate_reset_password_key!
       if user.save
         UserMailer.reset_password(user).deliver
+        return true
       end
     end
     false
   end
 
   def update_password(password, password_confirmation)
-    self.reset_password_key = nil
+    self.reset_password_key = ''
     self.password = password
     self.password_confirmation = password_confirmation
     self.save

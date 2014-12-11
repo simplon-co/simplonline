@@ -13,6 +13,7 @@ fr:
       definition: "Lexique"
       about: "À propos"
       home: "Tableau de bord"
+      irc: 'Salon de discussion'
       messages: "Messages"
       title_window: "Simplonline"
       title: "Simplonline"
@@ -490,7 +491,7 @@ Nous organiserons également des rencontres physiques à l'occasion d'évènemen
         Nous vous encourageons vivement à vous emparer du forum, du chat IRC, du groupe Facebook avec lequel vous êtes à l’aise. De poster, comme certains le font déjà, les contenus complémentaires que vous avez trouvés. D’organiser entre vous des hangout, voir des scéances de mobprogramming et surtout, dans la mesure de vos possibilités, d’organiser des meet-up ou simplement des apéros, ensembles.
 
 
-        Pour ceux qui en ont la possibilité voici une liste des espaces de coworking, par ville. Des bars « développeurs friendly » et la page du Ruby User Group, qui recense les membres actifs de la  communauté Ruby en France et dans le monde, si vous avez envie de rentrer en contact avec cette communauté.
+        Pour ceux qui en ont la possibilité voici une liste des [espaces de coworking](https://docs.google.com/a/simplon.co/spreadsheets/d/1IbwJcI56LePWt917hTdbwERpJFSoyqKrBk5dpB-Zjy0/edit#gid=0), par ville. Des bars « développeurs friendly » et la page du [Ruby User Group](http://rubyusergroups.org/), qui recense les membres actifs de la  communauté Ruby en France et dans le monde, si vous avez envie de rentrer en contact avec cette communauté.
         "
   user_mailer:
     contact:
@@ -555,7 +556,6 @@ Nous organiserons également des rencontres physiques à l'occasion d'évènemen
     "#Kata",
     "#Outils",
     "#Framework & Lib",
-    "#infrastructure",
     "#software",
     "#licences",
     "#free",
@@ -590,6 +590,7 @@ Nous organiserons également des rencontres physiques à l'occasion d'évènemen
     "#HTML" ,
     "#java" ,
     "#javascript",
+    "#js" ,
     "#node.js",
     "#CSS",
     "#Ruby" ,
