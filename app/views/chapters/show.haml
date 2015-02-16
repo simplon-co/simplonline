@@ -31,3 +31,5 @@
     = link_to t('.next_chapter'), lesson_chapter_path(@lesson, @chapter.next)
   - unless current_user.remote?
     = link_to t('.edit'), edit_lesson_chapter_path(@lesson, @chapter)
+    = link_to t('.contact'), contact_path(@contact), :class=>"right"
+
