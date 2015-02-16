@@ -1,3 +1,4 @@
+
 /*
  *= require_tree .
  *= require_self
@@ -200,6 +201,10 @@ li ol {
 /* HTML5 tags */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
   display: block;
+}
+
+.right {
+  float:right;
 }
 
 /* max values */
