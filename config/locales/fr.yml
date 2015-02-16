@@ -207,6 +207,7 @@ fr:
       edit: "Editer le chapitre"
       next_chapter: "Chapitre suivant"
       prev_chapter: "Chapitre précédent"
+      contact: "Signaler un problème"
 
       ask_pair_validation_on_submission: "Une demande de validation par les pairs est demandée dans ce chapitre. Soumettez votre proposition ici, d'autres élèves viendront la valider ou en parler."
     index:
